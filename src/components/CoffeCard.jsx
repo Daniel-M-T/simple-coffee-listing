@@ -28,7 +28,7 @@ const CoffeeCard = ({ id, coffee }) => {
             <div className="flex justify-between items-center mt-2">
                 <div className="flex items-center">
                     <img
-                        src={`../public/images/${rating > 0 ? 'Star_fill' : 'Star'}.svg`}
+                        src={`/images/${rating > 0 ? 'Star_fill' : 'Star'}.svg`}
                         alt={rating > 0 ? 'Star filled' : 'Star empty'}
                         className="mr-1"
                     />
