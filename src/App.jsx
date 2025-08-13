@@ -10,7 +10,7 @@ function App() {
       {/* Imagen superior */}
       <div className='w-full overflow-hidden'>
         <img
-          src="/images/bg-cafe-lg.jpg"
+          src="./images/bg-cafe-lg.jpg"
           alt="bg-cafe-lg"
           className='h-[300px] object-fill'
         />
@@ -22,7 +22,7 @@ function App() {
           {/* Vector decorativo */}
           <div className='absolute top-2 left-1/2 transform -translate-x-1/2 md:top-8 md:right-28 md:translate-x-[20%]'>
             <img
-              src="/images/vector.svg"
+              src="./images/vector.svg"
               alt=""
             />
           </div>
