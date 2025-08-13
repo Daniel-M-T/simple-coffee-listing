@@ -8,11 +8,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/simple-coffee-listing/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false
+    copyPublicDir: true
   },
   resolve: {
     alias: {
