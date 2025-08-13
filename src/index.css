@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base personalizados si son necesarios */
+body {
+  @apply bg-background text-text-primary min-h-screen;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Asegurarse de que las imágenes se muestren correctamente */
+img {
+  max-width: 100%;
+  height: auto;
+}
